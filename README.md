@@ -5,7 +5,7 @@ A simple signal/slot system for @ziglang
 The whole concept is similar to [Qt's Signals & Slots](https://doc.qt.io/qt-6/signalsandslots.html),
 Only we rely on zig's comptime instead of separate tools like [MOC](https://doc.qt.io/qt-6/moc.html).
 
-```
+```zig
 const signal = @import("zig-signal");
 
 // Declare Signal with function prototype
